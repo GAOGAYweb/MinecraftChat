@@ -28,7 +28,8 @@ export default (socket) => {
       host:       data.hostname,
       port:       data.port,
       username:   data.username,
-      password:   data.password
+      password:   data.password,
+      version: "1.8.9",
     });
 
 

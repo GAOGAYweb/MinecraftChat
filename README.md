@@ -1,6 +1,5 @@
 MinecraftChat
 -------
-[![Circle CI](https://circleci.com/gh/AlexKvazos/MinecraftChat.svg?style=svg)](https://circleci.com/gh/AlexKvazos/MinecraftChat)
 
 Web based Minecraft chat client for 1.8 servers.
 
@@ -11,17 +10,8 @@ This is a very lightweight application... ~500kb without modules. It is built on
 
 ###Installing on your own server
 ```
-git clone https://github.com/AlexKvazos/MinecraftChat
-cd MinecraftChat
 npm install && grunt build
 npm start
 ```
 
 This will start the application on port `3000` or the one specified by the `PORT`environment variable.
-
-###Grunt tasks
-
-* `grunt debug` - Builds the client-side javascript application with no minification
-* `grunt build` - Builds the client-side javascript application with minification
-* `grunt watch` - Automatically runs `grunt debug` when client-side code changes
-* `grunt server` - Starts server and automatically restart when server-side code changes
